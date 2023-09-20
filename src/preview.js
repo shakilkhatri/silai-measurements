@@ -24,30 +24,30 @@ const Preview = () => {
   );
 
   const [kurtaMeasurements, setKurtaMeasurements] = useState({
-    shoulder: 0,
-    chest: 0,
-    waist: 0,
-    seat: 0,
-    gher: 0,
-    neckWidth: 0,
-    neckLength: 0,
-    neckBack: 0,
-    armHole: 0,
-    sleeveLength: 0,
-    sleeveWidth: 0,
-    modhiyu: 0,
+    shoulder: null,
+    chest: null,
+    waist: null,
+    seat: null,
+    gher: null,
+    neckWidth: null,
+    neckLength: null,
+    neckBack: null,
+    armHole: null,
+    sleeveLength: null,
+    sleeveWidth: null,
+    modhiyu: null,
     ...data?.kurta
 
     // ...JSON.parse(localStorage.getItem("silai_details")).filter(item=>item.name===localStorage.getItem("SelectedCustomerName")).kurta
   });
 
   const [salvarMeasurements, setSalvarMeasurements] = useState({
-    length: 0,
-    width: 0,
-    seat: 0,
-    mori: 0,
-    beltWidth: 0,
-    beltLength: 0,
+    length: null,
+    width: null,
+    seat: null,
+    mori: null,
+    beltWidth: null,
+    beltLength: null,
     ...data?.salvar
   });
 
